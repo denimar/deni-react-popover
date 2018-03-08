@@ -1,0 +1,8 @@
+/.eslintrc
+/.gitignore
+/.npmignore
+/bower.json
+/examples/
+/server.js
+/src/
+/webpack.*

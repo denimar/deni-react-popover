@@ -1,0 +1,59 @@
+@import './deni-react-popover.vars.scss';
+
+.deni-react-popover-container {
+  font-family: tahoma,arial;
+  position: absolute;
+  z-index: 999999;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .deni-react-popover {
+    background-color: white;
+    border: solid 1px #c0c0c0;
+    box-shadow: -2px -2px 2px #c0c0c0, 2px 2px 2px #c0c0c0;
+    border-radius: 8px;
+    min-height: 50px !important;
+
+    .deni-react-popover-arrow {
+      border-color: transparent;
+      border-style: dashed dashed solid;
+      border-width: 0 8px 8px;
+      position: absolute;
+      //right: 40px;
+
+      /*
+      &.left-aligned {
+        right: 40px;
+      }
+
+      &.center-aligned {
+        right: 40px;
+      }
+
+      &.right-aligned {
+        right: 40px;
+      }
+      */
+
+      &.deni-react-popover-arrow1 {
+        border-bottom-color: #ccc;
+        border-bottom-color: rgba(0,0,0,.2);
+        top: -8px;
+      }
+
+      &.deni-react-popover-arrow2 {
+        border-bottom-color: #fff;
+        top: -7px;
+      }
+
+    }
+
+    .deni-react-popover-body {
+      padding: 20px;
+    }
+
+  }
+
+}
