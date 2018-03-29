@@ -1230,6 +1230,9 @@ var DeniReactPopover = function (_React$Component) {
 
     _this.mousedownFn = function () {
       if (!_this._clickedInsideElement(event.target)) {
+        if (_this.props.onBeforeHide) {
+          _this.props.onBeforeHide(_this.element);
+        }
         _this.hide();
       }
     };
