@@ -18,6 +18,9 @@ class DeniReactPopover extends React.Component {
 
     this.mousedownFn = () => {
       if (!this._clickedInsideElement(event.target)) {
+        if (this.props.onBeforeHide) {
+          this.props.onBeforeHide(this.element);
+        }
         this.hide();
       }
     }
