@@ -1,6 +1,6 @@
 {
   "name": "deni-react-popover",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A modern popover for React.",
   "main": "build/deni-react-popover.js",
